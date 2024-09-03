@@ -3,10 +3,11 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   build: {
-    outDir: 'dist' // You can customize this
+    outDir: 'dist' // Output directory for the build
   },
   server: {
-    port: 3000,    // Example: set server to run on port 3000
-    host: '0.0.0.0' // Set host to 0.0.0.0 for Railway or other cloud platforms
-  }
+    port: 3000,      // Development server port
+    host: '0.0.0.0'  // Host for cloud platforms like Railway
+  },
+  base: 'adsite_2.0' // Add this line with your actual GitHub repository name
 });
