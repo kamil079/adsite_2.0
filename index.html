@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="adsite task" />
+    <link rel="icon" href="images/favicon.png">
+    <base href="/adsite_2/">
+    <title>Adsite</title>
+
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+        rel="stylesheet">
+        
+  </head>
+  <body class="overflow-x-hidden"> 
+    <div class='w-full relative z-20'>
+      <div class='relative container px-6 flex flex-col gap-4 justify-between py-4 text-customBlack tablet:flex-row text-[15px] tablet:px-[50px] tablet:items-center'>
+          <div class='hidden hd:block bg-[url("/images/hero/line.webp")] bg-cover bg-no-repeat absolute left-[45%] top-0 z-10 w-[600px] h-[600px] '></div>
+          <div class='hidden hd:block bg-[url("/images/hero/line-2.webp")] bg-cover bg-no-repeat absolute left-[45%] top-0 z-10 w-[800px] h-[600px] '></div>
+          <img loading='lazy' src="/images/logo/logo.png" alt="" class='max-w-[155px] h-[30px]'>
+          <div class='hidden tablet:flex items-center gap-6 font-normal roboto-flex '>
+              <p class='cursor-pointer'>Galeria zdjęć</p>
+              <p class='cursor-pointer'>FaQ</p>
+          </div>
+          <button class='relative z-20 bg-blue hover:bg-black text-white text-[15px] roboto-flex rounded-lg py-3 px-5 cursor-pointer'>
+            Zadzwoń do nas
+        </button>
+          <div burger class='space-y-1 flex flex-col absolute right-6 top-6 cursor-pointer tablet:hidden'>
+              <span class='w-10 h-1 bg-blue rounded-md'></span>
+              <span class='w-6 h-1 bg-blue rounded-md'></span>
+              <span class='w-8 h-1 bg-blue rounded-md'></span>
+          </div>
+      </div>
+  </div>
+  <div class='w-full relative z-20 '>
+    <div class='container px-6 text-customBlack flex flex-col pt-10 h-[70vh] bg-[url("/public/images/hero/hero.webp")] bg-contain bg-no-repeat bg-right-bottom tablet:px-[50px] tablet:pt-[120px] tablet:h-[825px]'>
+        <div>
+            <h1 class='text-[60px] leading-[73px] text-black font-normal uppercase tracking-tight tablet:text-[76px] tablet:leading-[83px]'>sprzedajemy samochody<br> z europy</h1>
+        </div>
+        <div class='pt-8 pb-[42px]'>
+            <p class='text-base roboto-condensed font-normal'>Kup komfortowy pojazd, aby kazda podróz była<br> wyjatkowym przezyciem.</p>
+        </div>
+        <div class='flex flex-col gap-4 mobile:flex-row'>
+            <button class='relative z-20 bg-blue hover:bg-black text-white text-[15px] roboto-flex rounded-lg py-3 px-5 cursor-pointer'>
+                Zobacz zdjęcia
+            </button>
+            <button class='relative z-20 text-[15px] roboto-flex rounded-lg py-3 px-5 cursor-pointer bg-white !text-blue border-[1px] border-blue hover:border-black hover:bg-black hover:!text-white'>
+                Zadzwoń do nas
+            </button> 
+        </div>
+    </div>
+  </div>
+  <div class="splide container px-[18px] pt-10 pb-[50px] tablet:pt-[80px] tablet:pb-[152px] ">
+    <div class="splide__track">
+        <div class=' text-[15px] leading-10 text-customBlack font-normal pb-10 tablet:pb-[80px]'>
+            <p class='roboto-condensed text-blue  text-[21px] '>Prezentacja firmy</p>
+            <p class='text-[40px] uppercase mb-6 '>Zobacz nasza galerie zdjęć</p>
+            <div class='flex flex-col gap-4 md:flex-row md:gap-[50px]  roboto-flex font-normal cursor-pointer'>
+                <p class=' text-blue underline underline-offset-4 '>Samochody
+                    osobowe</p>
+                <p>Samochody dostawcze</p>
+            </div>
+        </div>
+        <ul class="splide__list">
+            <li class="splide__slide">
+                <img loading='lazy' src="/images/slider-img/alfa.webp" alt="red alfa romeo" >
+            </li>
+            <li class="splide__slide">
+                <img loading='lazy' src="/images/slider-img/maseratti.webp" alt="black maseratti" >
+            </li>
+            <li class="splide__slide">
+                <img loading='lazy' src="/images/slider-img/audi-matrix.webp" alt="audi matrix headlight" >
+            </li>
+            <li class="splide__slide">
+                <img loading='lazy' src="/images/slider-img/road.webp" alt="photo of road in fast motion" class='bg-no-repeat bg-cover bg-center w-[600px] h-[446px] '>
+            </li>
+            <li class="splide__slide">
+                <img loading='lazy' src="/images/slider-img/mini.webp" alt="mini cooper headlight" >
+            </li>
+        </ul>
+    </div>
+  </div>
+  <div class="w-full bg-customBlack ">
+    <div class="container px-6 py-10 flex flex-col  gap-[48px] text-white text-sm tablet:flex-row tablet:px-[50px] tablet:py-[88px]">
+        <div class='max-w-[576px] font-normal'>
+            <h3 class='text-[25px] uppercase '>id nostrud enim esse consecteur in eu mallit aute. velit nulla commodo.</h3>
+            <p class='roboto-condensed mt-4 mb-6'>mauris verius ipsum mauris, rutrum lobortis magne efficitur a. Donec egestas, nisl vehicula feugiat ornare, diam effictur mi, ac venenatis eros ipsum ac arcu. Vestibulum et [...]</p>
+            <p class='roboto-condensed inline-block border-b-[1px] border-white pb-1 cursor-pointer'>Rozwiń <span class='inline-block  bg-[url("/public/images/icons/arrow-down.png")] w-5 h-5 align-top bg-cover bg-no-repeat bg-center'></span></p>
+        </div>
+        <div class='max-w-[576px] font-normal'>
+            <h3 class='text-[25px] uppercase '>id nostrud enim esse consecteur in eu mallit aute. velit nulla commodo.</h3>
+            <p class='roboto-condensed mt-4 mb-6'>mauris verius ipsum mauris, rutrum lobortis magne efficitur a. Donec egestas, nisl vehicula feugiat ornare, diam effictur mi, ac venenatis eros ipsum ac arcu. Vestibulum et [...]</p>
+            <p class='roboto-condensed inline-block border-b-[1px] border-white pb-1 cursor-pointer'>Rozwiń <span class='inline-block  bg-[url("/public/images/icons/arrow-down.png")] w-5 h-5 align-top bg-cover bg-no-repeat bg-center'></span></p>
+        </div>
+    </div>
+  </div>
+  <div class="w-full bg-customBlack border-t-[1px] border-bgWhite">
+    <div class="container px-6 py-6 roboto-condensed text-white text-base flex flex-col gap-4 mobile:flex-row justify-between items-center tablet:px-[50px]">
+        <p class='block font-bold'>Cars Spot</p>
+        <p class='block underline cursor-pointer'>Polityka Prywatności</p>
+    </div>
+  </div>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
